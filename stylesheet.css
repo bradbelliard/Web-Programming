@@ -1,0 +1,16 @@
+
+h1 {
+	text-align: center;
+
+}
+p {
+	text-align: center;
+
+}
+body {
+	background-color: #d7eeff;
+	font-family: Arial ,sans-serif;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
