@@ -3,3 +3,5 @@ body {
   background-color: #d7eeff;
   font-family: Arial;
 }
+
+a:visited { text-decoration: none; }
