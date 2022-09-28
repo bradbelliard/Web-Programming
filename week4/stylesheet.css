@@ -1,0 +1,21 @@
+
+h1 {
+	text-align: center;
+
+}
+p {
+	text-align: center;
+
+}
+body {
+	background-color: #d7eeff;
+	font-family: Montserrat ,sans-serif;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+img {
+	width: 500;
+	height: 500;
+}

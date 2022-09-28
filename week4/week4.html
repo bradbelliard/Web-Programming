@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<script type="text/javascript">
+	function getRandomImage() {
+		const randomImage = ["books.jpg", "film.jpg", "newspaper.jpeg", "podcast.jpg", "radio.jpg", "smartphone.jpg", "socialmedia.jpg", "television.jpg", "medium.png"];
+
+		var number = Math.floor(Math.random()*randomImage.length);
+
+
+		return document.getElementById("result").innerHTML = '<img src="'+randomImage[number]+'" />';
+
+	}  
+</script>
+<body>
+	<h1>Bradley Belliard</h1>
+	
+	<button onclick= "getRandomImage();"> Generate Medium </button>
+	<br> <br>
+	<span id="result" align="center"></span>
+</body>
+
+
+</html>
